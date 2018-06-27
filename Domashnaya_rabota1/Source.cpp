@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void main()
+int main()
 {
 	setlocale(LC_ALL, "Rus");
 	cout << "Задача номер 79: " << endl;
@@ -92,4 +92,6 @@ void main()
 	}
 	cout << "При наименьшем n = " << n << " результат будет больше введенного а." << endl;
 
+	system("pause");
+	return 0;
 }
