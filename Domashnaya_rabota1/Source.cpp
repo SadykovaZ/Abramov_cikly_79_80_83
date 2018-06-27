@@ -26,40 +26,40 @@ int main()
 
 	for (int i = 1; i <= 3; i++)
 	{
-		result1 = result1*i;
-		total = x - (pow(x, 3) / result1);
+		result1 = result1*i;		
 	}
+	total = x - (pow(x, 3) / result1);
 
 
 	for (int i = 1; i <= 5; i++)
 	{
-		result2 = result2*i;
-		total1 = total + (pow(x, 5) / result2);
+		result2 = result2*i;		
 	}
+	total1 = total + (pow(x, 5) / result2);
 
 	for (int i = 1; i <= 7; i++)
 	{
-		result3 = result3*i;
-		total2 = total1 - (pow(x, 7) / result3);
+		result3 = result3*i;		
 	}
+	total2 = total1 - (pow(x, 7) / result3);
 
 	for (int i = 1; i <= 9; i++)
 	{
-		result4 = result4*i;
-		total3 = total2 + (pow(x, 9) / result4);
+		result4 = result4*i;		
 	}
+	total3 = total2 + (pow(x, 9) / result4);
 
 	for (int i = 1; i <= 11; i++)
 	{
-		result5 = result5*i;
-		total4 = total3 - (pow(x, 11) / result5);
+		result5 = result5*i;		
 	}
+	total4 = total3 - (pow(x, 11) / result5);
 
 	for (int i = 1; i <= 13; i++)
 	{
-		result6 = result6*i;
-		total5 = total4 + (pow(x, 13) / result6);
+		result6 = result6*i;		
 	}
+	total5 = total4 + (pow(x, 13) / result6);
 
 	cout << "Результат = " << total5 << endl;
 
